@@ -1,0 +1,6 @@
+.cover__image {
+    background-size: cover;
+    width: 100%;
+    min-height: 640px;
+    opacity: .8;
+}
