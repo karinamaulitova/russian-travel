@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
    padding: 64px 16px 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+   padding: 88px 24px 0;
   }
 }

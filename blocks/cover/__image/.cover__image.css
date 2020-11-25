@@ -1,12 +1,25 @@
 .cover__image {
-    background-size: cover;
-    width: 100%;
-    min-height: 640px;
-    opacity: .8;
+  width: 100%;
+  height: 640px;
+  opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
-    .cover__image {
-     min-height: 200px;
-    }
+@media screen and (max-width: 1023px) {
+  .cover__image {
+    height: 480px;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__image {
+    height: 740px;
+    width: 1184px
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .cover__image {
+    height: 200px;
+  }
+}

@@ -8,7 +8,19 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
+  .lead {
+    padding: 48px 24px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    padding: 56px 48px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .lead {
     padding: 48px 16px 0;
   }
