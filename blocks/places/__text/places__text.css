@@ -4,17 +4,27 @@
   line-height: 29px;
   color: #ffffff;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .places__text:nth-child(2) {
     margin-top: 27px;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 1023px) {
+  .places__text {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
   .places__text {
    font-size: 16px;
    line-height: 26px;
-   margin: 0 16px;
+   padding: 0 16px;
+  
   }
 
   .places__text:nth-child(2) {
