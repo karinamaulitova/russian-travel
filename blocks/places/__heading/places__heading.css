@@ -1,0 +1,15 @@
+.places__heading {
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+color: #FFFFFF;
+margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+    .places__heading {
+     font-size: 32px;
+     line-height: 35px;
+     margin: 0 16px;
+    }
+  }
