@@ -1,9 +1,16 @@
 .cover__link {
   text-decoration: none;
   margin: 0;
+  position: relative;
 }
 
-.cover__link:hover .cover__image {
-  opacity: 0.3;
-  transition: opacity 0.3s ease;
+.cover__link::before {
+  content: "";
+  width: 100%;
+  min-height: 640px;
+  background-color: #2a2c2f;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
