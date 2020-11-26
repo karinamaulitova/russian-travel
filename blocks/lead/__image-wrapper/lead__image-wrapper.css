@@ -2,4 +2,15 @@
   display: flex;
   flex-direction: column;
   margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.lead__image-wrapper::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  right:0;
+  top: 20%;
+  content: url('../../../images/lead__map.svg');
 }
