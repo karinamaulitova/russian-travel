@@ -2,15 +2,21 @@
   text-decoration: none;
   margin: 0;
   position: relative;
+  display: block;
 }
 
 .cover__link::before {
   content: "";
-  width: 100%;
-  min-height: 640px;
   background-color: #2a2c2f;
-  opacity: 0.8;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
 }
