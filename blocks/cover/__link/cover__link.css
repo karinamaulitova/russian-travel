@@ -3,8 +3,7 @@
   margin: 0;
 }
 
-.cover__link:hover .cover__image{
-opacity: .3;
+.cover__link:hover .cover__image {
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
 }
-
-
